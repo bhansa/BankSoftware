@@ -34,10 +34,12 @@ II. Pointers - use '*' near pointer name: `int *pointer name;`
 
 III. Structures and unions - naming same as for variables:
  
-`struct test_struct {
+```
+struct test_struct {
 	int test;
 	int *pointer;
-};`
+};
+```
 
 IV. Typedefs: use '_t' postfix: `typedef test_struct test_struct_t;` ('_t' minds that it is a type)
 
