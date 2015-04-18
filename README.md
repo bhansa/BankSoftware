@@ -43,14 +43,14 @@ IV. Typedefs: use '_t' postfix: `typedef test_struct test_struct_t;` ('_t' minds
 
 V. Functions - C Standard Style: 
 
-`size_t strlen(char *str)
+```size_t strlen(char *str)
 {
 	... FUNCTION BODY ...
-}`
+}```
 
 VI. Code blocks - code block like for, while, do, if:
 
-`if (...) {
+```if (...) {
 	...
 } else if (...) {
 	...
@@ -79,13 +79,13 @@ switch (...) {
 	default:
 		...
 		break;
-}`
+}```
 
 VII. Commenting - there are 3 situatuions:
 
 a) on file start: You must write copyright and license and file description
 
-`/* ... name ...
+```/* ... name ...
  * 
  * Copyright (c) 2015 ...name... (...mail...).
  * This program is free software; you can redistribute it and/or modify it
@@ -94,14 +94,14 @@ a) on file start: You must write copyright and license and file description
  * any later version.
  * 
  * ... description ...
- */`
+ */```
 
 b) in header files before function declaration
 
-`/*
+```/*
  * ... description ...
- */`
-int test_func();
+ */
+int test_func();```
 
 c) inside source file - use '//' comments
 
